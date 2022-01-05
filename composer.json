@@ -1,0 +1,25 @@
+{
+  "name": "zcy/test",
+  "description": "the test",
+  "type": "library",
+  "keywords": [
+    "zcy"
+  ],
+  "license": "MIT",
+  "require": {
+    "php":">=7.2.0",
+    "ext-json": "*",
+    "ext-mbstring": "*",
+    "ext-libxml": "*",
+    "ext-simplexml": "*",
+    "ext-iconv": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "zcy\\test\\": "src/test/"
+    },
+  },
+  "config": {
+    "preferred-install": "dist"
+  }
+}
